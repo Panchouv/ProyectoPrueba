@@ -4,11 +4,12 @@ import './App.css';
 import { Container, Divider, Image } from 'semantic-ui-react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar.jsx';
-
 import Home from './views/Home'
 import Alumnos from './views/Alumnos'
 import FechaPruebas from './views/FechaPruebas'
 import Notas from './views/Notas'
+import FormularioComponent from './components/FormularioComponent';
+import Formulario from './views/Formulario';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path='/alumnos' component={Alumnos}/>
           <Route path='/fechas' component={FechaPruebas}/>
           <Route path='/notas' component={Notas}/>
+          <Route path='/formulario' component={Formulario}/>
         </Switch>
         
 

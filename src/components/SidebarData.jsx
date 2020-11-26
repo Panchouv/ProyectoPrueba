@@ -27,5 +27,11 @@ export const SidebarData = [
         path: '/notas',
         icon: <AiIcons.AiFillHome />,
         cName: 'nav-text'
-    }
+    },
+    {
+        title: 'Formulario',
+        path: '/formulario',
+        icon: <AiIcons.AiFillHome />,
+        cName: 'nav-text'
+    },
 ]
