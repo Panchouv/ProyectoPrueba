@@ -10,6 +10,7 @@ import FechaPruebas from './views/FechaPruebas'
 import Notas from './views/Notas'
 import FormularioComponent from './components/FormularioComponent';
 import Formulario from './views/Formulario';
+import VistaApi from './views/VistaApi';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path='/fechas' component={FechaPruebas}/>
           <Route path='/notas' component={Notas}/>
           <Route path='/formulario' component={Formulario}/>
+          <Route path='/vistaapi' component={VistaApi}/>
         </Switch>
         
 

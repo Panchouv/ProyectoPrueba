@@ -35,4 +35,10 @@ export const SidebarData = [
         icon: <FaIcons.FaUserCheck />,
         cName: 'nav-text'
     },
+    {
+        title: 'VistaApi',
+        path: '/vistaapi',
+        icon: <AiIcons.AiFillApi />,
+        cName: 'nav-text'
+    },
 ]
