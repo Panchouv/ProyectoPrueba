@@ -25,8 +25,8 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home}/>
           <Route path='/alumnos' component={Alumnos}/>
-          <Route path='/fechas' component={FechaPruebas}/>
-          <Route path='/notas' component={Notas}/>
+          {/* <Route path='/fechas' component={FechaPruebas}/>
+          <Route path='/notas' component={Notas}/> */}
           <Route path='/formulario' component={Formulario}/>
           <Route path='/vistaapi' component={VistaApi}/>
         </Switch>

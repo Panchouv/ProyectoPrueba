@@ -17,18 +17,18 @@ export const SidebarData = [
         icon: <FaIcons.FaUserGraduate/>,
         cName: 'nav-text'
     },
-    {
-        title: 'FechaPruebas',
-        path: '/fechas',
-        icon: <BsIcons.BsCalendarFill />,
-        cName: 'nav-text'
-    },
-    {
-        title: 'Notas',
-        path: '/notas',
-        icon: <FaIcons.FaClipboardCheck />,
-        cName: 'nav-text'
-    },
+    // {
+    //     title: 'FechaPruebas',
+    //     path: '/fechas',
+    //     icon: <BsIcons.BsCalendarFill />,
+    //     cName: 'nav-text'
+    // },
+    // {
+    //     title: 'Notas',
+    //     path: '/notas',
+    //     icon: <FaIcons.FaClipboardCheck />,
+    //     cName: 'nav-text'
+    // },
     {
         title: 'Formulario',
         path: '/formulario',
