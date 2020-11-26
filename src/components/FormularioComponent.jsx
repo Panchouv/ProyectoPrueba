@@ -12,6 +12,14 @@ const FormularioComponent = () => (
           <input placeholder='Last Name' />
     </Form.Field>
     <Form.Field>
+          <label>asdsadasd</label>
+          <input placeholder='First Name' />
+    </Form.Field>
+    <Form.Field>
+          <label>Panxo</label>
+          <input placeholder='First Name' />
+    </Form.Field>
+    <Form.Field>
           <Checkbox label='I agree to the Terms and Conditions' />
     </Form.Field>
     <Button type='submit'>Submit</Button>
