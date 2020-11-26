@@ -8,8 +8,8 @@ const Alumnos = () => (
     <div className='alumnos'>
         <Container>
 
-            <HeaderExampleUsersIcon/>
-            <TableExamplePadded/>
+            <HeaderExampleUsersIcon />
+            <TableExamplePadded />
 
         </Container>
     </div>

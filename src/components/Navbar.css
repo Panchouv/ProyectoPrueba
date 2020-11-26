@@ -19,13 +19,17 @@
     display: flex;
     justify-content: center;
     position: fixed;
-    top: 0;
+    top: auto;
+    /* top: 0; */
     left: -100%;
     transition: 850ms;
+    z-index: 1;
 }
 
 .nav-menu.active {
     left: 0;
+    /* top: 195px; */
+    top: auto;
     transition: 350ms;
 }
 

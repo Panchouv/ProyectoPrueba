@@ -2,6 +2,7 @@ import React from 'react'
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import * as IoIcons from "react-icons/io";
+import * as BsIcons  from "react-icons/bs";
 
 export const SidebarData = [
     {
@@ -13,25 +14,25 @@ export const SidebarData = [
     {
         title: 'Alumnos',
         path: '/alumnos',
-        icon: <AiIcons.AiFillHome />,
+        icon: <FaIcons.FaUserGraduate/>,
         cName: 'nav-text'
     },
     {
         title: 'FechaPruebas',
         path: '/fechas',
-        icon: <AiIcons.AiFillHome />,
+        icon: <BsIcons.BsCalendarFill />,
         cName: 'nav-text'
     },
     {
         title: 'Notas',
         path: '/notas',
-        icon: <AiIcons.AiFillHome />,
+        icon: <FaIcons.FaClipboardCheck />,
         cName: 'nav-text'
     },
     {
         title: 'Formulario',
         path: '/formulario',
-        icon: <AiIcons.AiFillHome />,
+        icon: <FaIcons.FaUserCheck />,
         cName: 'nav-text'
     },
 ]
